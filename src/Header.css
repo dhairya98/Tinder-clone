@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    /* Flex in a single row */
+    justify-content: space-between;
+    /* Give equal spaces between them */
+    border-bottom: 1px solid white;
+    /* To give Whitespace at the bottom of flex container */
+    align-items: center;
+    /* To bring all component items in the center */
+}
+
+.header__logo {
+    height: 40px;
+    /* width: 60px; */
+    object-fit: contain;
+    /* Maintains Aspect Ratio, looks clean logo Locks Resolution */
+    
+}
+
+.header__size{
+    padding: 20px;
+    /* Create Space around the element 20 from all up, down, left, right */
+    /* font-size: large; */
+}

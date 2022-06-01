@@ -1,0 +1,33 @@
+.chat {
+    display: flex;
+    align-items: center;
+    /* Align Items along the Horizontal Axis */
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.chat__details{
+    flex: 1;
+    /* Push to the left */
+}
+
+.chat__details >p {
+    color: gray;
+}
+
+.chat__timestamp{
+    color: lightgrey;
+}
+
+.chat__image{
+    margin-right: 20px;
+    /* Gives extra 20px space in the right ____|__| */
+}
+
+a{
+    text-decoration: none;
+    /* no underline */
+    color: inherit;
+}
